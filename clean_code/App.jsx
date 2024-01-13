@@ -7,7 +7,6 @@ function App() {
   const [products, setProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
-
   const fetchProducts = async () => {
     try {
       setIsLoading(true);
